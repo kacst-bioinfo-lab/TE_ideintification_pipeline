@@ -1,5 +1,5 @@
-# How to install PhyLTR: Three steps (Class1 Identification)
-
+# (Class1 Identification)
+ How to install PhyLTR: Three steps 
 1. Clone repository
 2. Install dependencies
 3. Download databases
@@ -103,3 +103,6 @@ PhyLTR/RepeatDatabases/Repbase/Repbase_ERV_LTR.list
 ## 5. Add pHMMs for domain annotation (optional)
 ##### Append any HMMs you want to include to `PhyLTR/LTRdigest_HMMs/hmm`
 The version included in repository contains pHMMs for TE-related domains from Pfam and from gydb.org, downloaded Summer 2018.
+
+
+# (Class2 Identification)
