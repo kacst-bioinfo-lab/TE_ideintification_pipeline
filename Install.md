@@ -106,3 +106,13 @@ The version included in repository contains pHMMs for TE-related domains from Pf
 
 
 # (Class2 Identification)
+
+* [miteFinder](https://github.com/jhu99/miteFinder)
+* [helitronscanner](https://sourceforge.net/projects/helitronscanner/)
+
+# (Denove Identification)
+* [RepeatModeler](https://www.repeatmasker.org/RepeatModeler/)
+
+
+# (Annotation)
+* [RepeatMasker](https://www.repeatmasker.org/RepeatMasker/)
