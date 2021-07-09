@@ -104,9 +104,10 @@ PhyLTR/RepeatDatabases/Repbase/Repbase_ERV_LTR.list
 ##### Append any HMMs you want to include to `PhyLTR/LTRdigest_HMMs/hmm`
 The version included in repository contains pHMMs for TE-related domains from Pfam and from gydb.org, downloaded Summer 2018.
 
+## NonLTR
+* [mgescan](https://github.com/COL-IU/mgescan)
 
 # (Class2 Identification)
-
 * [miteFinder](https://github.com/jhu99/miteFinder)
 * [helitronscanner](https://sourceforge.net/projects/helitronscanner/)
 
