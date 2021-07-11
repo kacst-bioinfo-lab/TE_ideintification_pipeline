@@ -159,7 +159,11 @@ python setup.py install
 # Class 2
 All eukaryotic DNA transposons reported so far belong to a single category of elements which use the so-called ``cut-and-paste'' transposition mechanism, except Helitrons, which transpose by rolling-circle replication. Here, we employed methodologies for the detection of DNA transposons in the studied genomes based on the initial identification of TIR, and non-autonomous elements such as miniature inverted-repeat elements (MITEs) and helitron. 
 
-
+MITEs are DNA-based elements that have TIRs but lack a transposase gene, and their well-defined structural features make them suitable for discovery by computational approaches. a valuable tool for detecting MITEs in eukaryotic genomes, [MiteFinder](https://github.com/jhu99/miteFinder). this tool is capable of detecting both perfect and imperfect inverted repeats through a string matching approach. It computes a new function to cluster MITE sequences into different MITE families in several steps. 
+ 1. First, it builds a k-mer index and seeks inverted repeats. Then, all sequence candidates are distinguished by the presence of a TIR pair of default length and a TSD pair. 
+ 2. the scaffolds are divided into multiple sequence fragments that overlap by 800 bp, which is the maximum length of MITEs, to guarantee that all inverted repeats are identified. 
+ 3. pairs of TIRs having lengths in the range of 50-800 bp are retained, and the remainder used as seeds for MITE candidates in the next step. 
+ 4. identified sequences are compared with MITEs in the Repbase database using blastn. Those with high similarity are considered valid positives, and those with low similarity as false positives. For each MITE cluster, the sequence with the highest blast score was selected via [best_blast_hit.py](https://github.com/mcsimenc/PhyLTR/blob/master/scripts/best_blast_hit.py) as the representative family sequence. The tool was executed with default parameters, except for the use of a confidence-score threshold of 0.5 to exclude low-confidence candidates.
 
 ### [MiteFinder](https://github.com/jhu99/miteFinder)
 ```sh
