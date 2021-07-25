@@ -1,4 +1,4 @@
-# Repeat Library Construction
+# Repeat library construction
 
 
 To construct reliable and comprehensive repeat libraries is a challenging task due to the variation in repeat structure and the difficulty of assembling repeats in genome sequences. As many elements vary considerably in genetic structure and sequence, the only means of achieving reliable results when identifying and annotating TEs is to practice complementary approaches. A flowchart describing our overall approach to TE identification is given in Fig. below. The specific methods for each type are detailed below. We employ **de novo** signature-based detection programs that rely upon prior knowledge concerning the sharing between different TEs of standard architectural features necessary for the process of transposition. 
