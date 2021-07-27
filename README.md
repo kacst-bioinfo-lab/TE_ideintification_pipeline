@@ -5,7 +5,8 @@ To construct reliable and comprehensive repeat libraries is a challenging task d
 
 Examples of classification according to similarity to known TEs include records in databases like **Repbase** and protein profiles retrieved from the **Pfam** database. Unfortunately, only well-described TEs that have a robust structural signature can be discovered by these methods. Some TEs do not have such characteristics and thus cannot be distinguished by this approach. In contrast to homology-based methods, signature-based methods are less biased by similarity to the set of known elements.
 
-![Pipeline](https://github.com/ohan-Bioinfo/Identification-of-TEs/blob/f21ea5ff79128c616b542adc063d3b6991c4f15d/figure_1.jpg)
+![Pipeline](https://github.com/kacst-bioinfo-lab/TE_ideintification_pipeline/blob/c96653e55dde2ea0faba57d802f41a262f81f816/figure_1%20.jpg)
+
 # Class 1
 ### LTR  (long terminal repeat) retrotransposons
 
