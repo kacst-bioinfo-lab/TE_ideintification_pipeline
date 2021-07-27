@@ -28,13 +28,12 @@ gt suffixerator -db Input.fna -indexname Input.fna.index -dna -suf -lcp -des -ss
 ### [LTRharvest](http://www.genometools.org/tools/gt_ltrharvest.html) 
 Searches the input sequence for direct repeats (LTRs) that are separated by a given distance (default 1 kb) and outside of which are apparent target site duplications (TSDs). Candidates distinguished by  [LTRharvest](http://www.genometools.org/tools/gt_ltrharvest.html) .
  ```sh
-gt ltrharvest -similar 0.00 -index Input.fna.index -gff3 Input.fna.ltrharvest.out.gff -seqids yes -v yes -mintsd 4 -maxtsd 20 -xdrop 5 -mat 2 -mis -2 -ins -3 -del -3 -minlenltr 100 -maxlenltr 1000 -mindistltr 100 -maxdistltr 15000 -vic 60
+gt ltrharvest -index Input.fna.index -gff3 Input.fna.ltrharvest.out.gff -seqids yes -v yes -mintsd 4 -maxtsd 20 -xdrop 5 -mat 2 -mis -2 -ins -3 -del -3 -minlenltr 100 -maxlenltr 1000 -mindistltr 100 -maxdistltr 15000 -vic 60
 ```
 * -minlenltr: specify minimum length for each LTR.
 * -maxlenltr: specify maximum length for each LTR.
 * -mindistltr: specify minimum distance of LTR startpositions.
 * -maxdistltr: specify maximum distance of LTR startpositions.
-* -similar: specify similarity threshold in range.
 * -mintsd: specify minimum length for each TSD.
 * -maxtsd: specify maximum length for each TSD.
 * -vic: specify the number of nucleotides (to the left and to the right that will be searched for TSDs and/or motifs around 5' and 3' boundary of predicted LTR retrotransposons.
