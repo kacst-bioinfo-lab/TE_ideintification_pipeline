@@ -107,13 +107,13 @@ The version included in repository contains pHMMs for TE-related domains from Pf
 ## NonLTR
 * [mgescan](https://github.com/COL-IU/mgescan)
 
-## (Class2 Identification)
+## Class2 Identification
 * [miteFinder](https://github.com/jhu99/miteFinder)
 * [helitronscanner](https://sourceforge.net/projects/helitronscanner/)
 
-## (Denovo Identification)
+## Denovo Identification
 * [RepeatModeler](https://www.repeatmasker.org/RepeatModeler/)
 
 
-## (Annotation)
+## Annotation
 * [RepeatMasker](https://www.repeatmasker.org/RepeatMasker/)
