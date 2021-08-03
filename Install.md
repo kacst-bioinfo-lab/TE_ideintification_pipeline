@@ -120,7 +120,7 @@ The version included in repository contains pHMMs for TE-related domains from Pf
 4. Click the Download button, sign in, and download the text page that opens.
 5. Repeat steps 2-4 but select Helitrons from the Repeat class dropdown list.
 6. Run: tBlastn against each corresponding class separedley 
-7. Extract best hits 
+7. Extract best hits using [best_blast_hit.py](https://github.com/mcsimenc/PhyLTR/blob/master/scripts/best_blast_hit.py)
 
 
 ## Denovo Identification
