@@ -1,4 +1,4 @@
-# (Class1 Identification)
+# Class1 Identification
  How to install PhyLTR: Three steps 
 1. Clone repository
 2. Install dependencies
