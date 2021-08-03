@@ -111,6 +111,18 @@ The version included in repository contains pHMMs for TE-related domains from Pf
 * [miteFinder](https://github.com/jhu99/miteFinder)
 * [helitronscanner](https://sourceforge.net/projects/helitronscanner/)
 
+### Repbase
+
+##### A. Get an [account with GIRI](https://www.girinst.org/accountservices/register.php) No longer free.
+1. Go to http://www.girinst.org/repbase/update/browse.php
+2. Select DNA Transposons from the Repeat class dropdown list.
+3. Select FASTA from the Output format drop down list.
+4. Click the Download button, sign in, and download the text page that opens.
+5. Repeat steps 2-4 but select Helitrons from the Repeat class dropdown list.
+6. Run: tBlastn against each corresponding class separedley 
+7. Extract best hits 
+
+
 ## Denovo Identification
 * [RepeatModeler](https://www.repeatmasker.org/RepeatModeler/)
 
