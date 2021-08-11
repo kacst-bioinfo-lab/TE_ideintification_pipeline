@@ -1,4 +1,4 @@
-# Class1 Identification
+# Class 1 Identification
  How to install PhyLTR: Three steps 
 1. Clone repository
 2. Install dependencies
@@ -107,7 +107,7 @@ The version included in repository contains pHMMs for TE-related domains from Pf
 ## NonLTR
 * [mgescan](https://github.com/COL-IU/mgescan)
 
-## Class2 Identification
+## Class 2 Identification
 * [miteFinder](https://github.com/jhu99/miteFinder)
 * [helitronscanner](https://sourceforge.net/projects/helitronscanner/)
 
