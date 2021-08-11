@@ -123,7 +123,7 @@ The version included in repository contains pHMMs for TE-related domains from Pf
 7. Extract best hits using [best_blast_hit.py](https://github.com/mcsimenc/PhyLTR/blob/master/scripts/best_blast_hit.py)
 
 
-## Denovo Identification
+## _De novo_ Identification
 * [RepeatModeler](https://www.repeatmasker.org/RepeatModeler/)
 
 
