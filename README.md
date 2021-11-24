@@ -219,7 +219,7 @@ RepeatMasker -nolow -norna -a -s -gff -cutoff 225 -no_is -pa 40 -lib Combined_Li
 
  Additionally, the copy number of each TE and determined genome coverage from the RepeatMasker output files (.out), which correspond to the number of insertions identified in the masked genomes. The remaining unmasked portion of the genome is scanned using [RepeatModeler](http://www.repeatmasker.org/RepeatModeler.html) with default settings to detect any unclassified TEs such as TIRs that were missed by structure-based TE identification. 
 
-## Collecting repetitive sequences missed by previouse Structure-based tools using [RepeatModeler](http://www.repeatmasker.org/RepeatModeler.html)
+## Detecting repetitive sequences missed by previouse Structure-based tools using [RepeatModeler](http://www.repeatmasker.org/RepeatModeler.html)
 The remaining sequence is then used as the input for RepeatModeler:
 
 ```sh
